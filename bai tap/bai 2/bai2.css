@@ -1,0 +1,19 @@
+div.summary{
+	width: 312px;
+	height: 178px;
+	background-color: #edc2c2;
+	border: 1px solid none;
+}
+div.tips{
+	border-top: 5px solid red;
+	padding: 10px;
+	margin :0px 10px 0px 10px;
+}
+img.tip_img{
+	float: left;
+	padding-right: 10px;
+}
+p.content{
+	font-size: 12px;
+	font-family: "Times New Roman", Times, serif;
+}

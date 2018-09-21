@@ -1,0 +1,22 @@
+div.tips{
+	border-bottom: 1px solid #d7d7e2;
+	height: 175px;
+	width: 511px;
+	margin-bottom:20px;
+}
+img.tip_img{
+	float:  left;
+	padding-right: 10px;
+}
+a{
+	text-decoration: none;
+}
+a.tip_link{
+	font-size: 28px;
+}
+img.dot{
+	float: left;
+}
+a.referal_link{
+	color: gray;
+}
