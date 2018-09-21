@@ -1,0 +1,30 @@
+div.summary{
+	width: 900px;
+	height: 100px;
+	background-color: #d9dde2;
+	border: 1px solid gray;
+
+}
+div.a_tips{
+	width: 250px;
+	float: left;
+	height: 100%;
+	padding-right: 10px;
+}
+img.arrow_left{
+float:left;
+height: 100%;
+}
+img.arrow_right{
+float: right;
+height: 100%;
+}
+
+img.tips_image{
+	height: 100%;
+	float: left;
+	padding-right: 10px
+}
+a.tip_links{
+	text-overflow: hidden;
+}
