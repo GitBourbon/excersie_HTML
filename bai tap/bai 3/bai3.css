@@ -3,6 +3,7 @@ div.tips{
 	height: 175px;
 	width: 511px;
 	margin-bottom:20px;
+	padding-bottom: 20px;
 }
 img.tip_img{
 	float:  left;
