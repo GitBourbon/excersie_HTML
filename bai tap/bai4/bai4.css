@@ -1,0 +1,35 @@
+div.category {
+    border-bottom: 1px dashed gray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+div.content {
+    width: 700px;
+    background-color: #8efdff;
+    height: 337px;
+}
+div.content_left {
+    background-image: url(img2.png);
+    height: 100%;
+    width: 197px;
+    float: left;
+    margin-right: 20px;
+}
+img.tip_img{
+	float: left;
+	padding-right: 10px;
+}
+div.a_tip{
+	padding-top: 10px;
+	padding: 3px;
+	
+}
+
+a {
+    text-decoration: none;
+}
+a.tip_link{
+	font-weight: bold;
+	font-family: tahoma;
+	color: #414141;
+}
