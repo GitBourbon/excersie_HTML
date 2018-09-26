@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+div.tren {
+    width: 700px;
+    height: 50px;
+    border-top: 1px solid #666;
+    padding-top: 13px;
+    margin: auto;
+    margin-top: 100px;
+}
+div.tren .tdto {
+    color: pink;
+    font-size: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: url(icon.png);
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center bottom;
+    /* margin-bottom: 16px; */
+    display: block;
+    padding-bottom: 1-px;
+    padding-bottom: 25px;
+}
+a.extend {
+    float: right;
+    text-decoration: none;
+    font-style: italic;
+    padding-top: -25px;
+    margin-top: -52px;
+}
+a.extend:hover {
+    color: lightblue;
+}
+div.icon {
+    width: 700px;
+    height: 90px;
+    text-align: center;
+    margin: auto;
+}
+div._1icon {
+    width: 50px;
+    height: 70px;
+    float: left;
+    display: inline block;
+}
+a.chuaicon {
+    display: inline block;
+    width: 64px;
+    height: 85px;
+    background-image: url(nhieu.png);
+    background-position: -153px -426px;
+}
+ a.link {
+    text-decoration: none;
+    font-size: 12px;
+}
+div._1icon:hover a.chuaicon {
+    background-position: -107px -234px;
+}
+div._1icon:hover a.link {
+    color: lightblue;
+}
