@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+div.tren {
+    width: 451px;
+    height: 323px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+div.tren img {
+    width: 454px;
+}
+a.td-tren {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: tahoma;
+    font-size: 20px;
+}
+p.content-tren {
+    color: #666;
+    line-height: 18px;
+    font-family: tahoma;
+    font-size: 15px;
+}
+div.duoi{
+	width: 450px;
+	height: 262px;
+	
+}
+div.con {
+    width: 140px;
+    height: 130px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+div.con img {
+    width: 140px;
+    height: 79px
+}
+div.con a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
