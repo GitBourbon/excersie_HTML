@@ -1,66 +1,74 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
-div.tren {
+.tren {
     width: 700px;
-    height: 50px;
-    border-top: 1px solid #666;
+    height: 40px;
+    border-top: 1px solid gray;
     padding-top: 13px;
     margin: auto;
     margin-top: 100px;
 }
-div.tren .tdto {
-    color: pink;
-    font-size: 26px;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-image: url(icon.png);
-    padding-bottom: 10px;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-position: center bottom;
-    /* margin-bottom: 16px; */
-    display: block;
-    padding-bottom: 1-px;
-    padding-bottom: 25px;
-}
-a.extend {
+a.xt {
     float: right;
+    margin-top: -43px;
     text-decoration: none;
+    color: gray;
+    font-size: 12px;
     font-style: italic;
-    padding-top: -25px;
-    margin-top: -52px;
+    padding-bottom: 23px;
 }
-a.extend:hover {
-    color: lightblue;
+a.xt:hover {
+    color: blue;
+}
+a.tdto {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: pink;
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 20px;
 }
 div.icon {
     width: 700px;
-    height: 90px;
+    height: 100px;
     text-align: center;
     margin: auto;
 }
 div._1icon {
-    width: 50px;
-    height: 70px;
-    float: left;
-    display: inline block;
+    width: 44px;
+    height: 100px;
+    display: inline-block;
+    padding-right: 10px;
 }
-a.chuaicon {
+div._1icon div.chuaicon {
+    width: 44px;
+    height: 75px;
     display: inline block;
-    width: 64px;
-    height: 85px;
     background-image: url(nhieu.png);
-    background-position: -153px -426px;
+    background-position: -116px -35px;
 }
- a.link {
+div._1icon._so2 div.chuaicon{
+	
+}
+
+
+
+
+
+div._1icon a.link {
     text-decoration: none;
     font-size: 12px;
 }
-div._1icon:hover a.chuaicon {
-    background-position: -107px -234px;
+div._1icon:hover div.chuaicon {
+    background-position: -212px -137px;
 }
 div._1icon:hover a.link {
-    color: lightblue;
+    color: #54eb94;
 }
