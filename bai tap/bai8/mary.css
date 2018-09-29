@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
+div._1khoimarry{
+	overflow: hidden;
+}
 .tren {
-    width: 700px;
+    width: 1098px;
     height: 40px;
     border-top: 1px solid gray;
     padding-top: 13px;
@@ -46,8 +50,12 @@ div._1icon {
     width: 44px;
     height: 100px;
     display: inline-block;
-    padding-right: 69px;
+    margin-right: 69px;
 }
+div._1icon.cc{
+margin-right: 0px;
+}
+
 a.chuaicon {
     width: 44px;
     height: 75px;
@@ -71,16 +79,22 @@ div._1icon:hover a.chuaicon {
 div._1icon:hover a.link {
     color: #54eb94;
 }
-div.sanpham {
-    width: 1167px;
-    height: 435px;
-    margin: auto;
-}
+
+/*css cho sanpham*/
 div._1sanpham {
     width: 352px;
     height: 437px;
     margin-right: 32px;
     float: left;
+}
+div._1sanpham:nth-child(3) {
+    margin-right: 0px;
+}
+div.sanpham {
+    width: 1120px;
+    height: 435px;
+    margin: auto;
+    overflow: hidden;
 }
 div._1sanpham a.sp-link {
     display: block;
@@ -90,6 +104,9 @@ div._1sanpham a.sp-link {
     text-decoration: none;
     margin-bottom: 10px;
     color: black;
+}
+div._1sanpham a.sp-link:hover{
+	color: #31e2f7;
 }
 div._1sanpham p.sp-mota {
     font-size: 22px;
