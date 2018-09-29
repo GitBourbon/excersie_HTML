@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div.khoitin {
+    overflow: hidden;
+}
+div.giadinh {
+    width: 424px;
+    height: 422px;
+    border-top: 3px solid red;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+    top: 25px;
+
+}
+div.tieude div.vien {
+    border-top: 1px solid gray;
+    border-bottom: 2px solid #414141;
+    margin-top: 50px;
+    height: 2px;
+}
+.tieude a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #e00e0e94;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    top: -15px;
+    background-color: white;
+    padding: 0 10px;
+}
+.content a img {
+    float: left;
+    border: 1px solid gray;
+    padding: 2px;
+    box-shadow: 5px 5px 0 #80808052;
+    margin-right: 16px;
+}
+.content a.tin-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: arial;
+    display: block;
+    text-align: left;
+    line-height: 20px;
+    color: black;
+}
+.content p.tin-nd{
+	font-size: 12px;
+	color: gray;
+	text-align: left;
+	padding-top: 10px;
+}
+.dstin{
+	margin-top: 20px;
+
+}
+.dstin a{
+	text-decoration: none;
+	color: black;
+	font-family: arial;
+	font-size: 13px;
+}
+
+.dstin ul li {
+	text-align: left;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	list-style: none;
+	border-bottom: 1px dotted gray;
+	overflow: auto;
+
+}
+.dstin ul li i{
+	font-size: 4px;
+	position: relative;
+	top: -4px;
+	color: #ea3939d9;
+
+}
