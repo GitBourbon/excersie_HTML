@@ -40,35 +40,57 @@ div.icon {
     height: 100px;
     text-align: center;
     margin: auto;
+    padding-bottom: 30px;
 }
 div._1icon {
     width: 44px;
     height: 100px;
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 69px;
 }
-div._1icon div.chuaicon {
+a.chuaicon {
     width: 44px;
     height: 75px;
-    display: inline block;
+    display: inline-block;
     background-image: url(nhieu.png);
     background-position: -116px -35px;
 }
-div._1icon._so2 div.chuaicon{
-	
+._so2 a.chuaicon {
+    background-position: -221px -238px;
 }
-
-
-
-
-
+._so3 a.chuaicon {
+    background-position: -204px -319px;
+}
 div._1icon a.link {
     text-decoration: none;
     font-size: 12px;
 }
-div._1icon:hover div.chuaicon {
+div._1icon:hover a.chuaicon {
     background-position: -212px -137px;
 }
 div._1icon:hover a.link {
     color: #54eb94;
+}
+div.sanpham {
+    width: 1167px;
+    height: 435px;
+    margin: auto;
+}
+div._1sanpham {
+    width: 352px;
+    height: 437px;
+    margin-right: 32px;
+    float: left;
+}
+div._1sanpham a.sp-link {
+    display: block;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: tahoma;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: black;
+}
+div._1sanpham p.sp-mota {
+    font-size: 22px;
 }
